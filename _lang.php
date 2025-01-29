@@ -1,3 +1,3 @@
 <?php
-	echo "hello";
+	highlight_file(__FILE__);
 ?>
