@@ -1,6 +1,5 @@
-<!--?xml version="1.0" ?-->
-<!DOCTYPE replace [<!ENTITY ent SYSTEM "file://index.php"> ]>
-<userInfo>
- <firstName>John</firstName>
- <lastName>&ent;</lastName>
-</userInfo>
+<?xml version="1.0"?>
+<!DOCTYPE test [
+  <!ENTITY xxe "XXE-SUCCESS">
+]>
+<test>&xxe;</test>
