@@ -1,5 +1,18 @@
-<?xml version="1.0"?>
-<!DOCTYPE test [
-  <!ENTITY xxe "XXE-SUCCESS">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rss [
+  <!ENTITY test "Injection réussie !">
 ]>
-<test>&xxe;</test>
+<rss version="2.0">
+  <channel>
+    <title>&test;</title> 
+    <link>http://example.com/</link>
+    <description>Ceci est un flux de test.</description>
+    <item>
+      <title>Article 1</title>
+      <link>http://example.com/article1</link>
+      <description>Contenu de l'article 1</description>
+      <pubDate>Mon, 21 Jul 2025 12:00:00 +0200</pubDate>
+      <guid>http://example.com/article1</guid>
+    </item>
+  </channel>
+</rss>
