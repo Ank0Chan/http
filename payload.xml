@@ -9,7 +9,7 @@
     <link>http://example.com/</link>
     <description>Ceci est un flux de test.</description>
     <item>
-      <title>Article 1</title>
+      <title>Article 1 &xxe;</title>
       <link>http://example.com/article1</link>
       <description>Contenu de l'article 1</description>
       <pubDate>Mon, 21 Jul 2025 12:00:00 +0200</pubDate>
